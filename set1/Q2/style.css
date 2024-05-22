@@ -1,0 +1,9 @@
+.list li {
+  font-size: 18px;
+  color: #333333;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  list-style-type: none;
+}
