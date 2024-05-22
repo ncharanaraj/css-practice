@@ -1,0 +1,12 @@
+input[type="text"] {
+  width: 400px;
+  height: 40px;
+  border: 1px solid #cccccc;
+  margin-block: 10px;
+  padding-inline: 20px;
+  background-color: #ffffff;
+  color: #999999;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+}
