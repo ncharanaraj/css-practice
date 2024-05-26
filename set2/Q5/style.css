@@ -1,0 +1,44 @@
+.price-card {
+  border: 1px solid #cccccc32;
+  width: 300px;
+  box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin: auto;
+  text-align: center;
+  border-radius: 0.5rem;
+}
+
+.price-card-title {
+  text-transform: capitalize;
+}
+
+.price-card-badge {
+  font-size: 24px;
+  background-color: #cccccc32;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.price-card-lists {
+  list-style: none;
+  text-transform: capitalize;
+  padding-left: 0;
+}
+
+.price-card-lists li {
+  margin-block: 0.5rem;
+  padding-block: 0.5rem;
+  font-size: 20px;
+  color: #333;
+}
+
+.price-card-btn {
+  border: none;
+  color: #fff;
+  background-color: rgb(255, 21, 0);
+  font-size: 24px;
+  text-transform: capitalize;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
