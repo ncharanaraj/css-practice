@@ -1,0 +1,33 @@
+.card {
+  width: 400px;
+  height: 500px;
+  background-color: antiquewhite;
+  border-radius: 1rem;
+  position: relative;
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+}
+
+.card-info {
+  text-align: center;
+  background-color: #ffffff7d;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.card-description {
+  font-size: larger;
+}
