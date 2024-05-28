@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+}
+
+.card {
+  width: 450px;
+  border: 1px solid #ccc;
+  border-radius: 0.4rem;
+  box-shadow: 0 6px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.card-btn {
+  color: #fff;
+  background-color: blue;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 0.4rem;
+  font-size: 20px;
+}
