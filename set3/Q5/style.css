@@ -1,0 +1,53 @@
+body {
+  font-family: sans-serif;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+.card {
+  border: 1px solid #ccc;
+  width: 250px;
+  border-bottom-left-radius: 0.4rem;
+  border-bottom-right-radius: 0.4rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  height: 250px;
+}
+
+.card-info {
+  margin: 1rem;
+}
+
+.category {
+  text-transform: uppercase;
+  color: #aaa;
+  font-size: 0.8rem;
+}
+
+.productName {
+  margin: 0;
+  padding: 0;
+}
+
+.price-info {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.price-info > .discount {
+  color: #aaa;
+  text-decoration: line-through;
+}
+
+.btn {
+  text-transform: capitalize;
+  border: none;
+  background-color: blue;
+  color: #fff;
+  padding: 0.8rem;
+  border-radius: 0.4rem;
+  font-size: 1.2rem;
+}
