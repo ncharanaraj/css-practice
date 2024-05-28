@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+}
+
+.card {
+  width: 500px;
+  border: 1px solid #ccc;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.heading-info {
+  position: absolute;
+  bottom: 100px;
+  right: 0;
+  left: 0;
+  text-align: end;
+  padding-right: 1rem;
+  color: #fff;
+}
+
+.sub-heading {
+  position: relative;
+  bottom: 15px;
+  font-size: 0.8rem;
+}
+
+.description {
+  padding-inline: 0.5rem;
+}
